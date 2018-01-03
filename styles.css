@@ -159,6 +159,16 @@ nav ul li a:hover{
     @include dark-overlay;
 
 }
+.pics-3-columns img{
+    width: 23%;
+    height: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    float: left;
+    @include dark-overlay;
+}
+
 .posts_z{
     width:100%;
     height: 380px;
@@ -221,6 +231,7 @@ nav ul li a:hover{
     width: 150px;
     left: 1050px;
 }
+
 .divy_g1{
     position: relative;
     top: 540px;
@@ -470,4 +481,27 @@ div.gallery:hover {
     top:400px;
     font-size: 28px;
     padding-left: 40px;
+}
+.heading_posts1{
+    position: absolute;
+    top: 38%;
+    width: 160px;
+    left: 175px;
+    font-size: 18px !important;
+}
+.heading_posts2{
+    position: absolute;
+    top: 39%;
+    height: 190px;
+    width:180px;
+    left: 440px;
+    font-size: 18px !important;
+}
+.heading_posts3{
+    position: absolute;
+    top: 42%;
+    height: 160px;
+    width: 140px;
+    left: 760px;
+    font-size: 18px !important;
 }
