@@ -125,13 +125,13 @@ nav ul li a:hover{
     font-size: 24px;
     font-family: fantasy;
 }
-.divy_g{
+.div_quote1{
     position: relative;
     top: 540px;
     height: 1090px;
     background-color:black;
 }
-.divy_z {
+.div_quote11{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pics/5.jpg);
     min-height:120vh;
     background-size: 50% 695px;
@@ -139,7 +139,7 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     display:flex;
 }
-.divy_1{
+.div_quote12{
     position:absolute;
     width: 500px;
     height: 400px;
@@ -231,14 +231,18 @@ nav ul li a:hover{
     width: 150px;
     left: 1050px;
 }
+<<<<<<< HEAD
 
 .divy_g1{
+=======
+.div_quote2{
+>>>>>>> 6ec1f2110f233b3b2f393b27df8ad58d1ff62037
     position: relative;
     top: 540px;
     height: 820px;
     background-color:black;
 }
-.divy_z1 {
+.div_quote21 {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pics/11.jpg);
     min-height:120vh;
     background-size: 100% 695px;
@@ -246,7 +250,7 @@ nav ul li a:hover{
     background-repeat: no-repeat;
     display:flex;
 }
-.divy_11{
+.div_quote22{
     position:absolute;
     width: 300px;
     height: 400px;
@@ -393,31 +397,6 @@ div.gallery:hover {
     border-color: black;
     border-style: groove;
 }
-#uniquename h2{
-   font-family: 'Risque',cursive;
-    font-size: 20px;
-    text-align: center;
-}    
-#uniquename img{
-    float: left;
-    width: 50px;
-    height: auto;
-    border-radius: 40px;
-    padding: 10px;
-}
-#uniquename .foody{
-    background-color: aliceblue;
-    font-family: cursive;
-    width:150px;
-    height: 150px;
-    font-size: 11px;
-    border: 2px;
-    border-color: black;
-    border-style: groove;
-    border-radius: 30px;
-    float: left;
-}
-
 .food_gallery_z h2{
     font-size: 80px;
     font-family: 'Risque',cursive;
