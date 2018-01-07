@@ -1,0 +1,334 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+@media only screen and (min-width:570px){
+    nav ul{
+        display:flex;
+        flex-wrap:wrap;
+        align-items:center;
+        justify-content:space-around;
+    }
+     nav ul li{
+        flex:1 0 auto;
+    }
+    .logo{
+        display: block;
+        text-align: center;
+    }
+}
+@media only screen and (max-width:470px),(min-width:200px){
+    .name_1{
+      top:90%;
+      left:10px;
+      width:40px;
+      font-size: 30px;
+    }
+}
+
+.yt_playlist{
+    width: 700px; /* you have to have a size or this method doesn't work */
+    height: 500px; /* think about making these max-width instead - might give you some more responsiveness */
+    position: absolute; /* positions out of the flow, but according to the nearest parent */
+    top: 0; right: 0; /* confuse it i guess */
+    bottom: 0; left: 0;
+    margin: auto; /* make em equal */
+}
+nav{
+    position:sticky;
+    width:100%;
+}
+nav ul{
+    background-color: black;
+    list-style-type:none;
+    
+}
+nav ul li a {
+    text-decoration: none;
+    display:block;
+    text-align:center;
+    font size:28px;
+    padding:15px 25px;
+    color:darkgray;
+}
+nav ul li a:hover{
+    color: azure;
+}
+.logo{
+    display:flex;
+    justify-content:space-between;
+    font-size:40px;
+    font-family: 'Risque',cursive;
+}
+.logo:hover{
+    background-color:cadetblue;
+    color: azure;
+}
+
+.ban1{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://drlanesebring.com/wp-content/uploads/2015/10/healthy-lifestylke.jpg);
+    min-height:90vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1450px 900px;
+    display:flex;
+    align-items: center;
+   
+}
+.name_1{
+    position: absolute;
+    top:35%;
+    left:20%;
+    text-align: center;
+    width:60%;
+    color: white;
+    text-shadow:  50px 20px 6px #000000;
+    font-family:'Risque', cursive;
+    font-size: 200px;
+}
+.intro_1 h2{
+    font-size: 59px;
+    color: black;
+    font-family: 'Bellefair', serif; 
+    text-align: center;
+    
+}
+.intro_1{
+    font-family: 'Bellefair', serif;
+    background-color:white;
+    font-size: 30px;
+    width:700px;
+    text-align: left;
+    position:absolute;
+    left:140px;
+    padding: 10px 40px 40px 40px;
+}
+
+.intro_9{
+    font-family: 'Bellefair', serif;
+    background-color:white;
+    font-size: 30px;
+    width:700px;
+    text-align: left;
+    position:absolute;
+    left:140px;
+    top: 600px;
+    padding: 10px 40px 40px 40px;
+    
+    }
+.intro_8 p{
+    width: 100%;
+    height: 100px;
+    font-family: 'Bellefair', serif;
+    background-color:white;
+    font-size: 30px;
+    width:700px;
+    text-align: left;
+    position:absolute;
+    left:300px;
+    top: 500px;
+    padding: 10px 40px 40px 40px;
+    
+}
+
+.intro_fitness{
+    width: 100%;
+    height: 100px;
+}
+
+.intro_img{
+    position:absolute;
+    top: 1000px;
+    right: 50px;
+    width: 500px;
+    border-radius: 20px;
+}
+.divy_g{
+    position: relative;
+    top: 560px;
+    height: 1000px;
+    background-color:black;
+}
+.divy_z {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i.ytimg.com/vi/m14eHLx0XLc/maxresdefault.jpg);
+    min-height:120vh;
+   padding-top: 900px;
+    background-size:50% 850px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display:flex;
+
+}
+.divy_1{
+    position:absolute;
+    width: 500px;
+    height: 400px;
+    left: 60%;
+    top: 20%;
+    color: white;
+    font-family:'Bellefair', serif
+    font-size: 25px;
+    text-align: center;
+}
+
+.posts_pics1{
+    left: 400px;
+    padding: 40px;
+
+}
+.posts_z{
+    
+    background-size:100%;
+    background-attachment: fixed;
+    display:flex;
+    width:100%;
+    height: 380px;
+    padding: 10px 72px 72px 72px;
+    position: absolute;
+    top: 1900px;
+    background-color:white;
+    width: 100%;
+    height: 600px;
+    background-image: url(https://i.ytimg.com/vi/UJUuqE1uVBk/maxresdefault.jpg)
+}
+.posts_z h2{
+    font-size: 79px;
+    font-family:'Aladin', cursive; 
+    text-align: center;
+    text-shadow:  10px 10px 10px white;
+    position: absolute;
+    left: 10%;
+    top:40px;
+}
+.posts_z h1:hover{
+   border: 1px solid black;
+   font-size: 40px;
+   color:antiquewhite;
+   background-color: rgba(7,9, 9, 0.8);
+}
+.posts_z h1{
+    text-align: center;
+    font-family:'Dosis', sans-serif;
+    font-size: 38px;
+    color:black;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255,0.69);
+}
+.headings_posts1{
+    position: absolute;
+    top: 40%;
+    width: 250px;
+    left: 150px;
+}
+.headings_posts2{
+    position: absolute;
+    top: 55%;
+    width:280px;
+    left: 570px;
+}
+.headings_posts3{
+    position: absolute;
+    top: 60%;
+    width: 240px;
+    left: 1000px;
+}
+.headings_posts4{
+    position: absolute;
+    top: 45%;
+    height: 100px;
+    width: 150px;
+    left: 1050px;
+}
+.divy_g1{
+    position: relative;
+    top: 640px;
+    height: 820px;
+    background-color:black;
+}
+.divy_z1 {
+    height: 1000px;
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(ZS/meditation-2214532.jpg);
+    min-height:120vh;
+    background-size: 100% 800px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display:flex;
+}
+.divy_11{
+    position:absolute;
+    width: 400px;
+    height: 400px;
+    left: 68%;
+    top: 25%;
+    color: whitesmoke;
+     text-shadow:  6px 6px 6px black ;
+    font-family:'Bellefair', serif
+    font-size: 28px;
+    text-align: center;
+}
+.food_gallery_z h2{
+    font-size: 79px;
+    font-family:'Aladin', cursive; 
+    text-align: center;
+    text-shadow:  10px 10px 10px white;
+    position: absolute;
+    left: 30%;
+    top:40px;
+}
+.food_gallery_z{
+    position:relative;
+    top: 300px;
+    width: 100%;
+    height:600px;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(pics/12.jpg);
+    min-height:80vh;
+    background-size: cover;
+    background-attachment:local;
+}
+.food_gallery_z button{
+    text-decoration: none;
+    position: relative;
+    left: 45%;
+    top: 60px;
+    height: 60px;
+    width: 150px;
+    border: 1px solid black;
+    background-color: azure;
+    
+}
+.food_gallery_z button a{
+    text-decoration: none;
+     color:dimgrey;
+    font-size: 24px;
+    font-family: 'Bellefair', serif
+}
+.photo1234 {
+    padding: 150px 10px 10px 80px;
+}
+.photo123 img{
+    width: 300px;
+    height: 300px;
+    float: left;
+    padding: 10px;
+    margin-left: 50px;
+}
+.kaur img{
+    position:absolute;
+    width: 600px;
+    border-radius:30px;
+    
+}
+.thind{
+    font-family: ;
+    font-size: 28px;
+    position: absolute;
+    left: 600px;
+    padding: 40px;
+}
+.preet{
+    position: absolute;
+    top:400px;
+    font-size: 28px;
+    padding-left: 40px;
+}
