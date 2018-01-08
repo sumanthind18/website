@@ -27,15 +27,19 @@
     }
 }
 nav{
+    margin-top: 2px;
     position:sticky;
     width:100%;
+   
 }
 nav ul{
     background-color: black;
     list-style-type:none;
+    border-radius: 10px;
     
 }
 nav ul li a {
+   
     text-decoration: none;
     display:block;
     text-align:center;
@@ -58,25 +62,34 @@ nav ul li a:hover{
 }
 
 .ban1{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://www.thanyapura.com/wp-content/uploads/2015/12/Fitness-Tips.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(cj/fitness-tips.jpg);
+    border-radius: 30px;
     min-height:90vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 1450px 900px;
     display:flex;
-    align-items: center;
-   
+    align-items: center; 
 }
 .name_1{
     position: absolute;
-    top:35%;
+    top:40%;
     left:20%;
     text-align: center;
     width:60%;
     color: white;
     text-shadow:  50px 20px 6px #000000;
     font-family:'Risque', cursive;
-    font-size: 200px;
+    font-size: 180px;
+    border-radius: 30px;
+   margin-top: 3px;
+    transition: width 1s,height 1s,font-size 1s;
+      float: right;
+}
+.name_1:hover {
+    width: 900px;
+    height: 1100px;
+    font-size: 250px;
 }
 .intro_1 h2{
     font-size: 59px;
@@ -89,11 +102,11 @@ nav ul li a:hover{
     font-family: 'Bellefair', serif;
     background-color:white;
     font-size: 30px;
-    width:700px;
+    width:800px;
     text-align: left;
     position:absolute;
-    left:140px;
-    padding: 100px 40px 40px 40px;
+    left:10px;
+    padding: 40px 40px 40px 40px;
 }
 .intro_fitness{
     width: 100%;
@@ -102,21 +115,23 @@ nav ul li a:hover{
 
 .intro_img{
     position:absolute;
-    top: 1000px;
+    top: 850px;
     right: 50px;
     width: 500px;
     border-radius: 20px;
 }
 .divy_g{
+    border-radius: 30px;
     position: relative;
-    top: 560px;
-    height: 1000px;
+    top: 450px;
+    height: 570px;
     background-color:black;
+  
 }
 .divy_z {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://www.poolvillepost.com/Fitness_Clip_Art_-_Copy.jpg);
-    min-height:120vh;
-   padding-top: 900px;
+    border-radius: 30px;
+    background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(cj/Fitness_Clip_Art_-_Copy.jpg);
+    min-height:73vh;
     background-size:50% 850px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -124,40 +139,38 @@ nav ul li a:hover{
 
 }
 .divy_1{
+    border-radius: 30px;
     position:absolute;
     width: 500px;
     height: 400px;
     left: 60%;
-    top: 1%;
+    top: 5%;
     color: white;
     font-family:'Freckle Face', cursive;
     font-size: 25px;
     text-align: center;
 }
-
+.posts_z{
+    border-radius: 30px;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    padding: 175px 70px 70px 70px;
+    position: relative;
+    top: 465px;
+    background-color:white;
+    width: 100%;
+    height: 800px;
+    background-image: url(CJ/effective-workouts.jpg);
+}
 .posts_pics1 img{
     width: 420px;
-    height: 300px;
+    height: 400px;
     float: left;
     padding: 15px;
     @include dark-overlay;
 
 }
-.posts_z{
-    
-    background-size:100%;
-    background-attachment: fixed;
-    display:flex;
-    width:100%;
-    height: 380px;
-    padding: 172px 72px 72px 72px;
-    position: absolute;
-    top: 1900px;
-    background-color:white;
-    width: 100%;
-    height: 600px;
-    background-image: url(https://www.mensjournal.com/wp-content/uploads/mj-618_348_lee-boyce-tips-for-more-effective-workouts.jpg)
-}
+
 .posts_z h2{
     font-size: 79px;
     font-family:'Aladin', cursive; 
@@ -167,12 +180,7 @@ nav ul li a:hover{
     left: 10%;
     top:40px;
 }
-.posts_z h1:hover{
-   border: 1px solid black;
-   font-size: 40px;
-   color:antiquewhite;
-   background-color: rgba(7,9, 9, 0.8);
-}
+
 .posts_z h1{
     text-align: center;
     font-family:'Dosis', sans-serif;
@@ -199,29 +207,25 @@ nav ul li a:hover{
     width: 240px;
     left: 1000px;
 }
-.headings_posts4{
-    position: absolute;
-    top: 45%;
-    height: 100px;
-    width: 150px;
-    left: 1050px;
-}
 .divy_g1{
+     border-radius: 30px;
     position: relative;
-    top: 540px;
-    height: 820px;
+    top: 480px;
+    height: 800px;
     background-color:black;
 }
 .divy_z1 {
-    height: 1000px;
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(Cj/17157769_821808404624667_6200170980425300372_o.jpg);
-    min-height:120vh;
+    height: 800px;
+    background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(Cj/17157769_821808404624667_6200170980425300372_o.jpg);
+    min-height:100vh;
+    border-radius: 30px;
     background-size: 100% 800px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     display:flex;
 }
 .divy_11{
+
     position:absolute;
     width: 400px;
     height: 400px;
@@ -231,68 +235,30 @@ nav ul li a:hover{
     font-family:'Satisfy', cursive;
     font-size: 40px;
     text-align: center;
+      border-radius: 30px;
 }
-.food_gallery_z h2{
-    font-size: 79px;
-    font-family:'Aladin', cursive; 
+.Signup{
+      position:absolute;
+    width: 400px;
+    height: 400px;
+    top: 15%;
+     text-shadow:  6px 6px 6px red ;
+    font-family:'Satisfy', cursive;
+    font-size: 25px;
     text-align: center;
-    text-shadow:  10px 10px 10px white;
+}
+button{
     position: absolute;
-    left: 30%;
-    top:40px;
-}
-.food_gallery_z{
-    position:relative;
-    top: 300px;
-    width: 100%;
-    height:600px;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(pics/12.jpg);
-    min-height:80vh;
-    background-size: cover;
-    background-attachment:local;
-}
-.food_gallery_z button{
-    text-decoration: none;
-    position: relative;
-    left: 45%;
-    top: 60px;
-    height: 60px;
-    width: 150px;
-    border: 1px solid black;
-    background-color: azure;
-    
-}
-.food_gallery_z button a{
-    text-decoration: none;
-     color:dimgrey;
-    font-size: 24px;
-    font-family: fantasy;
-}
-.photo1234 {
-    padding: 150px 10px 10px 80px;
-}
-.photo123 img{
-    width: 300px;
-    height: 300px;
-    float: left;
-    padding: 10px;
-}
-.kaur img{
-    position:absolute;
+    top: 660px;
+    left: 400px;
+    height: 90px;
     width: 600px;
-    border-radius:30px;
-    
+   color: darkgray;
+    border: 1px solid black; 
 }
-.thind{
-    font-family: ;
-    font-size: 28px;
-    position: absolute;
-    left: 600px;
-    padding: 40px;
-}
-.preet{
-    position: absolute;
-    top:400px;
-    font-size: 28px;
-    padding-left: 40px;
+button a{
+    text-decoration: none;
+     color:darkred;
+    font-size: 40px;
+    font-family: fantasy;
 }
