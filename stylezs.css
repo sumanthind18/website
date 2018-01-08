@@ -67,7 +67,7 @@ nav ul li a:hover{
 }
 
 .ban1{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://drlanesebring.com/wp-content/uploads/2015/10/healthy-lifestylke.jpg);
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0)),url(zs/health-routine.png);
     min-height:90vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -139,9 +139,9 @@ nav ul li a:hover{
 
 .intro_img{
     position:absolute;
-    top: 1000px;
-    right: 50px;
-    width: 500px;
+    top: 850px;
+    right: 40px;
+    width: 550px;
     border-radius: 20px;
 }
 .divy_g{
@@ -151,7 +151,7 @@ nav ul li a:hover{
     background-color:black;
 }
 .divy_z {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i.ytimg.com/vi/m14eHLx0XLc/maxresdefault.jpg);
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(zs/Meditation-can-improve-mental-health-1024x683.jpg);
     min-height:120vh;
    padding-top: 900px;
     background-size:50% 850px;
