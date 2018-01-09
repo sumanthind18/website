@@ -60,5 +60,11 @@ nav ul li a:hover{
     background-color:cadetblue;
     color: azure;
 }
+div{
+    width: 1000px;
+    height: 60px;
+    display: inline;
+    margin: 10px 10px;
+}
 
    

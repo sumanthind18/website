@@ -4,7 +4,6 @@
     <title>Sign Up!(Yes2HealthyLife)</title>
       <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale-1.0">
-    <title>Fitness Page(Yes2HealthyLife)</title>
     <link rel="stylesheet" type="text/css" href="login.css">
     <link href="https://fonts.googleapis.com/css?family=Courgette|Great+Vibes|Lobster|Risque|Rubik|Shrikhand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton" rel="stylesheet">
@@ -21,9 +20,12 @@
        <li><a href="Gallery.html">Gallery</a><li>
         <li><a href="login.html">Login</a><li>
      </ul>
-    </nav>
-        <h1>Sign Up for Yes2HealthyLife</h1><br/><br/>
-    <form action="https://formspree.io/chirag.jaggi12@gmail.com" method="POST">
+    </nav><br/>
+        <div><button type="button" onclick="one()" >Display Sign UP</button></div>
+    <div><button type="button" onclick="two()">Hide Sign up.</button></div>
+        <br/><br/>
+       <div> <h1>Sign Up for Yes2HealthyLife</h1><br/><br/>
+    <form id="form" action="https://formspree.io/chirag.jaggi12@gmail.com" method="POST">
        <h2>First Name:</h2>  <input type="text" name="First name" required/><br/><br/>
         <h2>Last Name:</h2> <input type="text" name="Last name" required/><br/><br/>
         <h2> Email:</h2> <input type="email" name="Email" /><br/><br/>
@@ -120,9 +122,11 @@
         <option value="99">99</option>
         <option value="100">100</option>
         </select><br/><br/>
-        <h2>Status:  </h2> <input type="text" name="Status"><br/><br/>
+        <h2>Options </h2> <input type="text" name="Status"><br/><br/>
         <h2>Confirm Email:  </h2> <input type="email" name="_replyto"><br/><br/>
         <input type="submit" name="Absorbed!" value="Submit"/><br/><br/>
         </form>
+            <script src="login.js"></script>
+            </div>
     </body>
 </html>
