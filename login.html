@@ -21,20 +21,35 @@
         <li><a href="login.html">Login</a><li>
      </ul>
     </nav><br/>
-        <div><button type="button" onclick="one()" >Display Sign UP</button></div>
-    <div><button type="button" onclick="two()">Hide Sign up.</button></div>
-        <br/><br/>
-       <div> <h1>Sign Up for Yes2HealthyLife</h1><br/><br/>
-    <form id="form" action="https://formspree.io/chirag.jaggi12@gmail.com" method="POST">
-       <h2>First Name:</h2>  <input type="text" name="First name" required/><br/><br/>
+         <h1 class="name">Best Wishes For your good health!</h1><br/><br/>
+           <h1 class="name"> Welcome to Yes 2 Healthy Life</h1><br/><br/>
+        
+        <div class="buttons"> 
+            <div>
+            <button class="b1" type="button" onclick="one()" >Sign UP</button>
+            </div>
+            <div>
+            <button class="b2" type="button" onclick="two()">Login.</button></div>
+        <br/><br/></div> 
+       <div>  
+          
+    <form class="formSt" id="signup" action="https://formspree.io/chirag.jaggi12@gmail.com" method="POST">
+        <h2>First Name:</h2 >  <input type="text" name="First name" required/><br/><br/>
         <h2>Last Name:</h2> <input type="text" name="Last name" required/><br/><br/>
+        <h2> Gender:</h2> 
+        <input type="radio" name="Gender" value="Male"/>Male
+        <input type="radio" name="Gender" value="Female"/>Female
+        <input type="radio" name="Gender" value="Other"/>Other<br/><br/>
         <h2> Email:</h2> <input type="email" name="Email" /><br/><br/>
-        <h2> Phone: </h2><input type="tel" name="Telephone"/><br/><br/>
-        <h2> Gender:</h2> <input type="radio" name="Gender" value="Male"/>Male
-         <input type="radio" name="Gender" value="Female"/>Female
-         <input type="radio" name="Gender" value="Other"/>Other<br/><br/>
-        <h2>Age:  </h2><select name="Age">
-          <option value="not 15">Must be over 15 years</option>
+        <h2>Username:</h2 >  <input type="text" name="Username" required/><br/><br/>
+        
+        <h2>Password:</h2> <input id="pass" type="password" name="Password" required/>
+        <input type="checkbox"  onclick="show()"/>Show password<br/><br/>
+       
+        <h2> Phone: </h2><input type="tel" name="Phone"/><br/><br/>
+        <h2>Age:</h2>
+        <select name="Age">
+        <option value="not 15">Must be over 15 years</option>
         <option value="15">15</option>
         <option value="16">16</option>
         <option value="17">17</option>
@@ -122,11 +137,21 @@
         <option value="99">99</option>
         <option value="100">100</option>
         </select><br/><br/>
-        <h2>Options </h2> <input type="text" name="Status"><br/><br/>
-        <h2>Confirm Email:  </h2> <input type="email" name="_replyto"><br/><br/>
-        <input type="submit" name="Absorbed!" value="Submit"/><br/><br/>
+        <h2>Option:</h2> <input type="checkbox" name="Section" value="Food"/>Food
+         <input type="checkbox" name="Section" value="Fitness"/>Fitness
+         <input type="checkbox" name="Section" value="Medical Conditions"/>Medical Conditions<br/><br/>
+        <input class="submit" type="submit" name="Absorbed!" value="Submit"/><br/><br/>
         </form>
-            <script src="login.js"></script>
+         
             </div>
+        
+        <div class="formlogin">
+            <form id="login" id="form1" action="https://formspree.io/chirag.jaggi12@gmail.com" method="POST">
+        <h2>Username:</h2 >  <input type="text" name="First name" required/><br/><br/>
+                <h2>Password:</h2> <input id="passl" type="password" name="Password" required/>
+        <input type="checkbox"  onclick="show1()"/>Show password<br/><br/>
+        <input  class="submit" type="submit" name="Absorbed!" value="Submit"/><br/><br/>
+        </form></div>
+          <script src="login.js"></script>
     </body>
 </html>

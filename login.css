@@ -60,11 +60,110 @@ nav ul li a:hover{
     background-color:cadetblue;
     color: azure;
 }
-div{
-    width: 1000px;
-    height: 60px;
-    display: inline;
-    margin: 10px 10px;
+.buttons{
+    display: flex;
+}
+.b1{
+    border-radius: 50px;
+    width: 300px;
+    height: 100px;
+    margin: 20px 20px;
+       float: right;
+      margin-left: 350px;
+     font-family:'Risque',cursive;
+    font-size:40px;
+    
+}
+.b2{
+    border-radius: 50px;
+    width: 300px;
+    height: 100px;
+    margin: 20px 20px; 
+       float: right;
+    margin-left: 100px;
+    font-family:'Risque',cursive;
+    font-size:40px;
 }
 
-   
+.name{
+    font-size: 50px;
+    text-align: center;
+}
+input[type=text] {
+    width: 1000px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+     border-radius: 50px;
+    border-color: black;
+}
+input[type=email]{
+      width: 1000px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-color: black;
+}
+input[type=checkbox]{
+      width: 50px;
+    margin-right: 0px;
+    border-radius: 50px;
+    border-color: black;
+}
+input[type=password]{
+      width: 1000px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-color: black;
+}
+input[type=tel]{
+      width: 1000px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-color: black;
+}
+input[type=radio]{
+    padding: 12px 20px;
+    margin: 8px 8px;
+    border-radius: 50px;
+    border-color: black;
+}
+input[type=tel]{
+      width: 1000px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-color: black;
+}
+select{
+    width: 1000px;
+    padding: 12px 20px;
+    margin: 8px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-color: black;
+    font-size: 30px;
+}
+.formSt{
+   margin-left: 30px;
+   font-size: 30px;
+}
+
+.formlogin{
+      font-size: 30px;
+    margin-left: 30px;  
+    
+}
+.submit{
+    border-radius: 50px;
+    width: 200px;
+    height: 100px; 
+    font-family:'Risque',cursive;
+    font-size:30px; 
+}
