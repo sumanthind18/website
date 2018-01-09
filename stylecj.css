@@ -131,7 +131,7 @@ nav ul li a:hover{
 .divy_z {
     border-radius: 30px;
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(cj/Fitness_Clip_Art_-_Copy.jpg);
-    min-height:73vh;
+    min-height:68.5vh;
     background-size:50% 850px;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -211,7 +211,7 @@ nav ul li a:hover{
      border-radius: 30px;
     position: relative;
     top: 480px;
-    height: 800px;
+    height: 384.5px;
     background-color:black;
 }
 .divy_z1 {
@@ -219,7 +219,7 @@ nav ul li a:hover{
     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(Cj/17157769_821808404624667_6200170980425300372_o.jpg);
     min-height:100vh;
     border-radius: 30px;
-    background-size: 100% 800px;
+    background-size: 99.9% 799.5px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     display:flex;
