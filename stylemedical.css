@@ -28,12 +28,12 @@
 }
 
 .yt_playlist{
-    width: 700px; /* you have to have a size or this method doesn't work */
-    height: 500px; /* think about making these max-width instead - might give you some more responsiveness */
-    position: absolute; /* positions out of the flow, but according to the nearest parent */
-    top: 0; right: 0; /* confuse it i guess */
+    width: 700px; 
+    height: 500px; 
+    position: absolute; 
+    top: 0; right: 0; 
     bottom: 0; left: 0;
-    margin: auto; /* make em equal */
+    margin: auto; 
 }
 nav{
     position:sticky;
@@ -67,23 +67,41 @@ nav ul li a:hover{
 }
 
 .ban1{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(http://drlanesebring.com/wp-content/uploads/2015/10/healthy-lifestylke.jpg);
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0)),url(zs/health-routine.png);
     min-height:90vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 1450px 900px;
     display:flex;
     align-items: center;
+    
+    
    
 }
+
+.ban2{
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0)),url(zs/7086.jpg);
+    min-height:90vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 1450px 900px;
+    display:flex;
+    align-items: center;
+    
+    
+   
+}
+
+
+
 .name_1{
     position: absolute;
     top:35%;
     left:20%;
     text-align: center;
     width:60%;
-    color: white;
-    text-shadow:  50px 20px 6px #000000;
+    color: ;
+    
     font-family:'Risque', cursive;
     font-size: 200px;
 }
@@ -117,17 +135,18 @@ nav ul li a:hover{
     padding: 10px 40px 40px 40px;
     
     }
-.intro_8 h4{
+.intro_8 p{
     width: 100%;
-    height: 2900px;
+    height: 100px;
     font-family: 'Bellefair', serif;
-    font-size: 20px;
+    background-color:white;
+    font-size: 30px;
     width:700px;
-    text-align: center;
+    text-align: left;
     position:absolute;
-    left:612px;
-    top: 650px;
-    background-color: antiquewhite;
+    left:300px;
+    top: 500px;
+    padding: 10px 40px 40px 40px;
     
 }
 
@@ -138,9 +157,9 @@ nav ul li a:hover{
 
 .intro_img{
     position:absolute;
-    top: 1000px;
-    right: 50px;
-    width: 500px;
+    top: 850px;
+    right: 40px;
+    width: 550px;
     border-radius: 20px;
 }
 .divy_g{
@@ -150,7 +169,7 @@ nav ul li a:hover{
     background-color:black;
 }
 .divy_z {
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(https://i.ytimg.com/vi/m14eHLx0XLc/maxresdefault.jpg);
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(https://upriteergo.com/wp-content/uploads/2016/01/workaholic.jpg);
     min-height:120vh;
    padding-top: 900px;
     background-size:50% 850px;
@@ -171,26 +190,49 @@ nav ul li a:hover{
     text-align: center;
 }
 
-.posts_pics1{
-    left: 400px;
-    padding: 40px;
-
-}
 .posts_z{
     
     background-size:100%;
     background-attachment: fixed;
     display:flex;
     width:100%;
-    height: 380px;
+    height: 700px;
     padding: 10px 72px 72px 72px;
     position: absolute;
     top: 1900px;
     background-color:white;
-    width: 100%;
-    height: 600px;
-    background-image: url(https://i.ytimg.com/vi/UJUuqE1uVBk/maxresdefault.jpg)
+    background-image: url(http://hellodollface.com/wp-content/uploads/2013/10/meditatio1.jpg);
+    max-width:100%;
+    max-height:100%;
 }
+.posts_y{
+    
+    background-size:100%;
+    background-attachment: fixed;
+    display:flex;
+    width:100%;
+    height: 700px;
+    padding: 10px 72px 72px 72px;
+    position: absolute;
+    top: 1900px;
+    background-color: white;
+    background-image: url(ZS/402977761-health-wallpapers.jpg);
+    max-width:100%;
+    max-height:100%;
+    background-repeat: no-repeat;
+}
+
+.posts_y h2{
+    text-align: center;
+    font-family:'Dosis', sans-serif;
+    font-size: 38px;
+     position: absolute;
+    top: 3%;
+    width: 700px;
+    left: 100px;
+    
+}
+
 .posts_z h2{
     font-size: 79px;
     font-family:'Aladin', cursive; 
@@ -200,13 +242,13 @@ nav ul li a:hover{
     left: 10%;
     top:40px;
 }
-.posts_z h1:hover{
+.posts_y h1:hover{
    border: 1px solid black;
    font-size: 40px;
    color:antiquewhite;
    background-color: rgba(7,9, 9, 0.8);
 }
-.posts_z h1{
+.posts_y h1{
     text-align: center;
     font-family:'Dosis', sans-serif;
     font-size: 38px;
@@ -239,6 +281,16 @@ nav ul li a:hover{
     width: 150px;
     left: 1050px;
 }
+
+.headings_posts5{
+    position: absolute;
+    top: 60%;
+    width: 250px;
+    left: 300px;
+    color: black;
+    background-color: lightgrey;
+}
+
 .divy_g1{
     position: relative;
     top: 640px;
@@ -330,7 +382,4 @@ nav ul li a:hover{
     top:400px;
     font-size: 28px;
     padding-left: 40px;
-}
-body{
-    background-color: lightyellow;
 }
