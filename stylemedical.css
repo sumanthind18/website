@@ -80,7 +80,7 @@ nav ul li a:hover{
 }
 
 .ban2{
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0)),url(https://olderdriversforum.files.wordpress.com/2013/09/notifiable-conditions.png?w=584&h=292);
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0)),url(zs/7086.jpg);
     min-height:90vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
@@ -100,8 +100,8 @@ nav ul li a:hover{
     left:20%;
     text-align: center;
     width:60%;
-    color: white;
-    text-shadow:  50px 20px 6px #000000;
+    color: ;
+    
     font-family:'Risque', cursive;
     font-size: 200px;
 }
@@ -190,10 +190,6 @@ nav ul li a:hover{
     text-align: center;
 }
 
-.posts_pics1{
-    background-size: 100%;
-
-}
 .posts_z{
     
     background-size:100%;
@@ -209,7 +205,6 @@ nav ul li a:hover{
     max-width:100%;
     max-height:100%;
 }
-
 .posts_y{
     
     background-size:100%;
@@ -220,11 +215,23 @@ nav ul li a:hover{
     padding: 10px 72px 72px 72px;
     position: absolute;
     top: 1900px;
-    background-image: url(zs/402977761-health-wallpapers.jpg);
+    background-color: white;
+    background-image: url(ZS/402977761-health-wallpapers.jpg);
     max-width:100%;
     max-height:100%;
+    background-repeat: no-repeat;
 }
 
+.posts_y h2{
+    text-align: center;
+    font-family:'Dosis', sans-serif;
+    font-size: 38px;
+     position: absolute;
+    top: 3%;
+    width: 700px;
+    left: 100px;
+    
+}
 
 .posts_z h2{
     font-size: 79px;
@@ -235,13 +242,13 @@ nav ul li a:hover{
     left: 10%;
     top:40px;
 }
-.posts_z h1:hover{
+.posts_y h1:hover{
    border: 1px solid black;
    font-size: 40px;
    color:antiquewhite;
    background-color: rgba(7,9, 9, 0.8);
 }
-.posts_z h1{
+.posts_y h1{
     text-align: center;
     font-family:'Dosis', sans-serif;
     font-size: 38px;
@@ -277,9 +284,11 @@ nav ul li a:hover{
 
 .headings_posts5{
     position: absolute;
-    top: 40%;
+    top: 60%;
     width: 250px;
-    left: 150px;
+    left: 300px;
+    color: black;
+    background-color: lightgrey;
 }
 
 .divy_g1{

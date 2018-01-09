@@ -119,14 +119,14 @@ nav ul li a:hover{
     }
 .intro_8 h4{
     width: 100%;
-    height: 2880px;
+    height: 2900px;
     font-family: 'Bellefair', serif;
     font-size: 20px;
     width:700px;
     text-align: center;
     position:absolute;
-    left:300px;
-    top: 500px;
+    left:612px;
+    top: 650px;
     background-color: antiquewhite;
     
 }
@@ -332,5 +332,5 @@ nav ul li a:hover{
     padding-left: 40px;
 }
 body{
-    background-image: url(ZS/pic5.jpg)
+    background-color: lightyellow;
 }
