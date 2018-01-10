@@ -44,7 +44,7 @@ nav ul li a {
     text-align:center;
     font size:28px;
     padding:15px 25px;
-    color:darkgray;
+    color:white;
 }
 nav ul li a:hover{
     color: azure;
@@ -60,7 +60,7 @@ nav ul li a:hover{
     color: azure;
 }
 .ban1{
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(cj/healthy-life-expectancy-by-gender1.jpg);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(cj/wonderful-river-in-the-middle-of-the-nature-hd-wallpaper-1920x1080.jpg);
     border-radius: 30px;
     min-height:90vh;
     background-attachment: fixed;
@@ -104,8 +104,9 @@ nav ul li a:hover{
 
 .name{
     padding-top: 50px;
-    font-size: 50px;
+    font-size: 70px;
     text-align: center;
+    font-family: 'aladin',cursive;
     text-shadow:  0px 0px 6px white;
 }
 .or{

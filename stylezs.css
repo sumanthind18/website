@@ -44,6 +44,7 @@ nav ul{
     background-color: black;
     list-style-type:none;
     text-shadow:  0px 0px 6px white;
+     border-radius: 30px;
 }
 nav ul li a {
     text-decoration: none;
@@ -51,7 +52,7 @@ nav ul li a {
     text-align:center;
     font size:28px;
     padding:15px 25px;
-    color:darkgray;
+    color:white;
 }
 nav ul li a:hover{
     color: azure;
@@ -68,43 +69,34 @@ nav ul li a:hover{
 }
 
 .ban1{
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0)),url(zs/health-routine.png);
+    margin-top: 10px;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(zs/health-routine.png);
     min-height:90vh;
+    border-radius: 30px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     background-size: 1450px 900px;
     display:flex;
-    align-items: center;
-    
-    
-   
+    align-items: center;    
 }
-
-.ban2{
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0)),url(https://olderdriversforum.files.wordpress.com/2013/09/notifiable-conditions.png?w=584&h=292);
-    min-height:90vh;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: 1450px 900px;
-    display:flex;
-    align-items: center;
-    
-    
-   
-}
-
-
-
 .name_1{
     position: absolute;
-    top:35%;
+    top:40%;
     left:20%;
     text-align: center;
     width:60%;
     color: white;
     text-shadow:  50px 20px 6px #000000;
     font-family:'Risque', cursive;
-    font-size: 200px;
+    font-size: 100px;
+    border-radius: 30px;
+   margin-top: 3px;
+    transition: width 1s,height 1s,font-size 1s;
+}
+.name_1:hover {
+    width: 900px;
+    height: 100px;
+    font-size: 130px;
 }
 .intro_1 h2{
     font-size: 59px;
@@ -114,14 +106,14 @@ nav ul li a:hover{
     
 }
 .intro_1{
-    font-family: 'Bellefair', serif;
+      font-family: 'Bellefair', serif;
     background-color:white;
     font-size: 30px;
-    width:700px;
+    width:800px;
     text-align: left;
     position:absolute;
-    left:140px;
-    padding: 10px 40px 40px 40px;
+    left:10px;
+    padding: 40px 40px 40px 40px;
 }
 
 .intro_9{
@@ -164,29 +156,30 @@ nav ul li a:hover{
     border-radius: 20px;
 }
 .divy_g{
+   border-radius: 30px;
     position: relative;
-    top: 560px;
-    height: 1000px;
+    top: 450px;
+    height: 570px;
     background-color:black;
 }
 .divy_z {
     background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(https://www.yogajournal.com/.image/t_share/MTQ2MTgwNjczNTUzMDQ5MTIw/couple-meditation.jpg);
-    min-height:120vh;
-   padding-top: 900px;
+     border-radius: 30px;
+    min-height:72.5vh;
     background-size:50% 850px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     display:flex;
-
 }
 .divy_1{
+   border-radius: 30px;
     position:absolute;
     width: 500px;
-    height: 500px;
+    height: 400px;
     left: 60%;
-    top: 20%;
+    top: 5%;
     color: white;
-    font-family:'Bellefair', serif
+    font-family:'Freckle Face', cursive;
     font-size: 25px;
     text-align: center;
 }
@@ -196,64 +189,42 @@ nav ul li a:hover{
 
 }
 .posts_z{
-    
-    background-size:100%;
-    background-attachment: fixed;
-    display:flex;
-    width:100%;
-    height: 700px;
-    padding: 10px 72px 72px 72px;
-    position: absolute;
-    top: 1900px;
-    background-color:white;
     background-image: url(ZS/meditation-2214532.jpg);
-    max-width:100%;
-    max-height:100%;
-    font-size: 50px;
+   border-radius: 30px;
+    background-size:100% 100%;
+    background-attachment: fixed;
+    padding: 175px 70px 70px 70px;
+    position: relative;
+    top: 465px;
+    background-color:white;
+    width: 100%;
+    height: 800px;
 }
 
 .benmed{
-    padding-left: 80px;
-}
-
-.benli{
-    padding-left: 10px;
-    
-}
-
-
-.posts_y{
-    
-    background-size:100%;
-    background-attachment: fixed;
-    display:flex;
-    width:100%;
-    height: 700px;
-    padding: 10px 72px 72px 72px;
-    position: absolute;
-    top: 1900px;
-    background-image: url(zs/402977761-health-wallpapers.jpg);
-    max-width:100%;
-    max-height:100%;
-}
-
-
-.posts_z h2{
-    font-size: 79px;
-    font-family:'Aladin', cursive; 
+    width: 650px;
     text-align: center;
-    text-shadow:  10px 10px 10px white;
-    position: absolute;
-    left: 10%;
-    top:40px;
+    font-size: 60px;
+     background-color: rgba(255, 255, 255,0.69);
+    border-radius: 30px;
+     font-family: 'Aladin',cursive;
 }
-.posts_z h1:hover{
-   border: 1px solid black;
-   font-size: 40px;
-   color:antiquewhite;
-   background-color: rgba(7,9, 9, 0.8);
+.benli{
+        background-color: rgba(255, 255, 255,0.69);
+    margin-top: 20px;
+       border-radius: 30px;
+    width: 700px;
+    height: 400px;
+    font-size: 25px;
+   font-weight: 800;
+    font-family: 'Roboto',cursive;
+}
+.benli li{
+    margin-left: 40px;
+    line-height: 35px;
 }
 .posts_z h1{
+    left: 1000px;
     text-align: center;
     font-family:'Dosis', sans-serif;
     font-size: 38px;
@@ -267,122 +238,67 @@ nav ul li a:hover{
     width: 250px;
     left: 150px;
 }
-.headings_posts2{
-    position: absolute;
-    top: 55%;
-    width:280px;
-    left: 570px;
-}
-.headings_posts3{
-    position: absolute;
-    top: 60%;
-    width: 240px;
-    left: 1000px;
-}
-.headings_posts4{
-    position: absolute;
-    top: 45%;
-    height: 100px;
-    width: 150px;
-    left: 1050px;
-}
-
-.headings_posts5{
-    position: absolute;
-    top: 40%;
-    width: 250px;
-    left: 150px;
-}
-
-.divy_g1{
-    position: relative;
-    top: 640px;
-    height: 820px;
-    background-color:black;
-}
-.divy_z1 {
-    height: 1000px;
-    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(ZS/meditation-2214532.jpg);
-    min-height:120vh;
-    background-size: 100% 800px;
+.food_gallery_z{
+     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(cj/10592976_350228325132945_7431640352807195215_n.jpg);
+     border-radius: 30px;
+    background-size:100% 100%;
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    display:flex;
+    padding: 175px 70px 70px 70px;
+    position: relative;
+    top: 485px;
+    background-color:white;
+    width: 100%;
+    height: 800px;
 }
-.divy_11{
-    position:absolute;
-    width: 400px;
-    height: 400px;
-    left: 68%;
-    top: 25%;
-    color: whitesmoke;
-     text-shadow:  6px 6px 6px black ;
-    font-family:'Bellefair', serif
-    font-size: 28px;
-    text-align: center;
-}
+
 .food_gallery_z h2{
+    color: white;
     font-size: 79px;
     font-family:'Aladin', cursive; 
     text-align: center;
-    text-shadow:  10px 10px 10px white;
+    text-shadow:  10px 10px 0px black;
     position: absolute;
-    left: 30%;
-    top:40px;
+    left: 35%;
+    top:50px;
 }
-.food_gallery_z{
-    position:relative;
-    top: 300px;
-    width: 100%;
-    height:600px;
-    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(pics/12.jpg);
-    min-height:80vh;
-    background-size: cover;
-    background-attachment:local;
-}
-.food_gallery_z button{
-    text-decoration: none;
-    position: relative;
-    left: 45%;
-    top: 60px;
-    height: 60px;
-    width: 150px;
-    border: 1px solid black;
-    background-color: azure;
-    
-}
-.food_gallery_z button a{
-    text-decoration: none;
-     color:dimgrey;
-    font-size: 24px;
-    font-family: 'Bellefair', serif
-}
-.photo1234 {
-    padding: 150px 10px 10px 80px;
-}
-.photo123 img{
-    width: 300px;
-    height: 300px;
+
+.posts_pics1 img{
+    width: 420px;
+    height: 400px;
     float: left;
-    padding: 10px;
-    margin-left: 50px;
+    margin-top: 100px;
+    padding: 15px;
+    @include dark-overlay;
+
 }
-.kaur img{
-    position:absolute;
-    width: 600px;
-    border-radius:30px;
-    
-}
-.thind{
-    font-family: ;
-    font-size: 28px;
+
+.headings_posts1{
     position: absolute;
-    left: 600px;
-    padding: 40px;
+    text-align: center;
+    top: 60%;
+    width: 260px;
+    left: 150px;
+    color: black;
+    background-color: rgba(255, 255, 255,0.69);
+    font-size: 60px;
 }
-.preet{
+.headings_posts2{
     position: absolute;
-    top:400px;
-    font-size: 28px;
-    padding-left: 40px;
+     text-align: center;
+    top: 60%;
+    width:200px;
+    left: 590px;
+    color: black;
+font-size: 60px;
+    background-color: rgba(255, 255, 255,0.69);
+}
+.headings_posts3{
+    position: absolute;
+    font-size: 60px;
+     text-align: center;
+    top: 60%;
+    width: 240px;
+    left: 1000px;
+    color: black;
+    background-color: rgba(255, 255, 255,0.69);
 }
