@@ -107,11 +107,12 @@ nav ul li a:hover{
     text-align: left;
     position:absolute;
     left:10px;
-    padding: 40px 40px 40px 40px;
+    padding: 140px 40px 40px 40px;
 }
 .intro_food{
    width: 100%;
     height: 100px;
+    line-height: 40px;
 }
 .intro_img{
    position:absolute;
@@ -123,14 +124,12 @@ nav ul li a:hover{
 .intro_food button{
     text-decoration: none;
     position: relative;
-    left: 75%;
-    top: 460px;
-    height: 60px;
-    width: 150px;
+    left: 70%;
+    top: 400px;
+    height: 50px;
+    width: 250px;
     border: 1px solid black;
     background-color: azure;
-    padding: 20px;
-    
 }
 .intro_food button a{
     text-decoration: none;
@@ -140,8 +139,13 @@ nav ul li a:hover{
 }
 .div_quote1{
     position: relative;
+<<<<<<< HEAD
     top: 520px;
     height: 550px;
+=======
+    top: 580px;
+    height: 670px;
+>>>>>>> fd3cda69838cfa463562ac85045abcb3c62ac060
     background-color:black;
     border-radius: 30px;
 }
@@ -228,12 +232,12 @@ nav ul li a:hover{
     top: 35%;
     width: 350px;
     left: 200px;
-    height: 60px;
+    height: 100px;
 }
 .headings_posts2{
     position: absolute;
-    top: 32%;
-    height: 110px;
+    top: 37%;
+    height: 60px;
     width:400px;
     left: 740px;
 }
@@ -611,6 +615,7 @@ div.gallery:hover {
     float:right;
     width: 620px;
     font-family:'Roboto',cursive;
+      
 }
 .headersDiv span{
     font-size: 40px;
@@ -622,12 +627,30 @@ div.gallery:hover {
 #steps_1{
     display: none;
     padding: 5px 50px 0px 90px;
+    line-height: 55px;
 }
 #steps_2{
     display: none;
     padding: 5px 50px 0px 90px;
+    line-height: 55px;
 }
 #steps_3{
     display: none;
     padding: 5px 50px 0px 90px;
+    line-height: 55px;
+}
+.points{
+    padding: 80px 240px 0px 240px;
+    font-size: 30px;
+    background: url(pics/7.jpg);
+}
+.points div{
+    padding: 20px 20px 0px 20px;
+    font-family:'Aladin',cursive;
+    font-size: 30px;
+}
+.points div p{
+     font-family:'Roboto',cursive;
+    font-size: 30px;
+    line-height: 50px;
 }

@@ -143,7 +143,7 @@ nav ul li a:hover{
     
 }
 
-.intro_fitness{
+.intro_home{
     width: 100%;
     height: 100px;
 }
@@ -258,8 +258,13 @@ nav ul li a:hover{
     text-align: center;
     text-shadow:  10px 10px 0px black;
     position: absolute;
+<<<<<<< HEAD
     left: 35%;
     top:50px;
+=======
+    left: 38%;
+    top:40px;
+>>>>>>> fd3cda69838cfa463562ac85045abcb3c62ac060
 }
 
 .posts_pics1 img{
@@ -294,6 +299,7 @@ font-size: 60px;
 }
 .headings_posts3{
     position: absolute;
+<<<<<<< HEAD
     font-size: 60px;
      text-align: center;
     top: 60%;
@@ -301,4 +307,34 @@ font-size: 60px;
     left: 1000px;
     color: black;
     background-color: rgba(255, 255, 255,0.69);
+=======
+    top:400px;
+    font-size: 28px;
+    padding-left: 40px;
+}
+
+
+#footer { 
+  
+  width: 100%;
+  height: 90px;
+  background: #000;
+  top: 3715px; 
+  z-index: 100;
+  position: absolute;
+
+}
+
+#footer p{ 
+  color: white;
+    font-size: 30px;
+  font-family: cursive;
+  
+
+}
+
+#footer a{ 
+  color: white;
+
+>>>>>>> fd3cda69838cfa463562ac85045abcb3c62ac060
 }
