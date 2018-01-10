@@ -139,13 +139,7 @@ nav ul li a:hover{
 }
 .div_quote1{
     position: relative;
-<<<<<<< HEAD
-    top: 520px;
-    height: 550px;
-=======
-    top: 580px;
-    height: 670px;
->>>>>>> fd3cda69838cfa463562ac85045abcb3c62ac060
+    top: 550px;
     background-color:black;
     border-radius: 30px;
 }
@@ -197,7 +191,7 @@ nav ul li a:hover{
     background-attachment: fixed;
     padding: 172px 72px 72px 72px;
     position: relative;
-    top: 530px;
+    top: 565px;
     background-color:white;
     width: 100%;
     height: 830px;
@@ -269,7 +263,7 @@ nav ul li a:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     display:flex;
-    margin-top:75px;
+    margin-top:120px;
     border-radius: 30px;
 }
 .div_quote22{
@@ -458,9 +452,9 @@ div.gallery:hover {
 }
 .food_gallery_z{
       margin-top: 180px;
-   
+   border-radius: 30px;
     position:relative;
-    top: 300px;
+    top: 360px;
     width: 100%;
     height:600px;
     background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.5)),url(pics/12.jpg);
@@ -654,3 +648,124 @@ div.gallery:hover {
     font-size: 30px;
     line-height: 50px;
 }
+
+#footer { 
+  
+  width: 100%;
+  height: 90px;
+  background: #000;
+  top: 4490px; 
+  z-index: 100;
+  position: absolute;
+border-radius: 30px;
+}
+
+#footer p{ 
+  color: white;
+    font-size: 30px;
+  font-family: cursive;
+  
+
+}
+
+#footer a{ 
+  color: white;
+
+}
+
+#footer1 { 
+  
+  width: 100%;
+  height: 90px;
+  background: #000;
+  top: 2500px; 
+  z-index: 100;
+  position: absolute;
+border-radius: 30px;
+}
+
+#footer1 p{ 
+  color: white;
+    font-size: 30px;
+  font-family: cursive;
+  
+
+}
+
+#footer1 a{ 
+  color: white;
+
+}
+
+#footer2 { 
+  
+  width: 100%;
+  height: 90px;
+  background: #000;
+  top: 6420px; 
+  z-index: 100;
+  position: absolute;
+border-radius: 30px;
+}
+
+#footer2 p{ 
+  color: white;
+    font-size: 30px;
+  font-family: cursive;
+  
+
+}
+
+#footer2 a{ 
+  color: white;
+
+}
+
+#footer3 { 
+  
+  width: 100%;
+  height: 90px;
+  background: #000;
+  top: 1820px; 
+  z-index: 100;
+  position: absolute;
+border-radius: 30px;
+}
+
+#footer3 p{ 
+  color: white;
+    font-size: 30px;
+  font-family: cursive;
+  
+
+}
+
+#footer3 a{ 
+  color: white;
+
+}
+
+#footer4 { 
+  
+  width: 100%;
+  height: 90px;
+  background: #000;
+  top: 2190px; 
+  z-index: 100;
+  position: absolute;
+border-radius: 30px;
+}
+
+#footer4 p{ 
+  color: white;
+    font-size: 30px;
+  font-family: cursive;
+  
+
+}
+
+#footer4 a{ 
+  color: white;
+
+}
+

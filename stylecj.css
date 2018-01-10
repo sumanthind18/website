@@ -273,7 +273,7 @@ button a{
   top: 3626px; 
   z-index: 100;
   position: absolute;
-
+border-radius: 30px;
 }
 
 #footer p{ 

@@ -163,6 +163,7 @@ nav ul li a:hover{
     background-color:black;
 }
 .divy_z {
+    margin-top: 500px;
     background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(https://www.yogajournal.com/.image/t_share/MTQ2MTgwNjczNTUzMDQ5MTIw/couple-meditation.jpg);
      border-radius: 30px;
     min-height:72.5vh;
@@ -177,11 +178,12 @@ nav ul li a:hover{
     width: 500px;
     height: 400px;
     left: 60%;
-    top: 5%;
-    color: white;
+    top: 1500px;;
+    color: ;
     font-family:'Freckle Face', cursive;
     font-size: 25px;
     text-align: center;
+    
 }
 
 .posts_pics1{
@@ -195,7 +197,7 @@ nav ul li a:hover{
     background-attachment: fixed;
     padding: 175px 70px 70px 70px;
     position: relative;
-    top: 465px;
+    top: 15px;
     background-color:white;
     width: 100%;
     height: 800px;
@@ -245,7 +247,7 @@ nav ul li a:hover{
     background-attachment: fixed;
     padding: 175px 70px 70px 70px;
     position: relative;
-    top: 485px;
+    top: 35px;
     background-color:white;
     width: 100%;
     height: 800px;
@@ -254,17 +256,13 @@ nav ul li a:hover{
 .food_gallery_z h2{
     color: white;
     font-size: 79px;
+    top: 60px;
+    left: 600px;
     font-family:'Aladin', cursive; 
     text-align: center;
-    text-shadow:  10px 10px 0px black;
+    text-shadow:  1px 10px 0px black;
     position: absolute;
-<<<<<<< HEAD
-    left: 35%;
-    top:50px;
-=======
-    left: 38%;
-    top:40px;
->>>>>>> fd3cda69838cfa463562ac85045abcb3c62ac060
+    text-align: center;
 }
 
 .posts_pics1 img{

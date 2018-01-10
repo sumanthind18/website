@@ -164,7 +164,7 @@ nav ul li a:hover{
     height: 700px;
     padding: 10px 72px 72px 72px;
     position: absolute;
-    top: 1930px;
+    top: 2000px;
     background-color: white;
     background-image: url(ZS/402977761-health-wallpapers.jpg);
     max-width:100%;
@@ -306,10 +306,10 @@ nav ul li a:hover{
   width: 100%;
   height: 90px;
   background: #000;
-  top: 2600px; 
+  top: 2720px; 
   z-index: 100;
   position: absolute;
-
+border-radius: 30px;
 }
 
 #footer p{ 
@@ -324,4 +324,4 @@ nav ul li a:hover{
   color: white;
 
 }
->>>>>>> fd3cda69838cfa463562ac85045abcb3c62ac060
+

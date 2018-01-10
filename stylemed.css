@@ -28,7 +28,7 @@
 }
 .cj{
     top: 1220px;
-    left:25%;
+    left:20%;
     width: 1000px;
     height: 100px;
     position: absolute;
@@ -51,6 +51,7 @@ nav ul{
     background-color: black;
     list-style-type:none;
   text-shadow:  0px 0px 6px white;  
+     border-radius: 30px;
 }
 nav ul li a {
     text-decoration: none;
@@ -59,6 +60,7 @@ nav ul li a {
     font size:28px;
     padding:15px 25px;
     color:white;
+     border-radius: 30px;
 }
 nav ul li a:hover{
     color: azure;
@@ -77,6 +79,7 @@ body{
     background-image: url('http://allswalls.com/images/nature-wallpaper-14.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    border-radius: 30px;
 }
 
 .name_1{
@@ -134,6 +137,7 @@ body{
 }
 .med1{
    background-image: url(ZS/pexels-photo.jpg) 
+       
 }
 
 .med2{
@@ -367,7 +371,7 @@ body{
     padding-left: 40px;
 }
 body{
-    background-image: url(ZS/1200px-Clouds_over_the_Atlantic_Ocean.jpg);
+    background-image: url(CJ/wonderful-river-in-the-middle-of-the-nature-hd-wallpaper-1920x1080.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -378,10 +382,10 @@ body{
   width: 100%;
   height: 90px;
   background: #000;
-  top: 6446px; 
+  top: 7050px; 
   z-index: 100;
   position: absolute;
-
+border-radius: 30px;
 }
 
 #footer p{ 
