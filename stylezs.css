@@ -70,7 +70,7 @@ nav ul li a:hover{
 
 .ban1{
     margin-top: 10px;
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(zs/health-routine.png);
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(ZS/health-routine.png);
     min-height:90vh;
     border-radius: 30px;
     background-attachment: fixed;
