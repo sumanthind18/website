@@ -17,6 +17,7 @@
         display: block;
         text-align: center;
     }
+    
 }
 @media only screen and (max-width:470px),(min-width:200px){
     .name_1{
@@ -169,7 +170,7 @@ nav ul li a:hover{
     background-color:black;
 }
 .divy_z {
-    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(https://upriteergo.com/wp-content/uploads/2016/01/workaholic.jpg);
+    background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0)),url(https://www.yogajournal.com/.image/t_share/MTQ2MTgwNjczNTUzMDQ5MTIw/couple-meditation.jpg);
     min-height:120vh;
    padding-top: 900px;
     background-size:50% 850px;
@@ -181,7 +182,7 @@ nav ul li a:hover{
 .divy_1{
     position:absolute;
     width: 500px;
-    height: 400px;
+    height: 500px;
     left: 60%;
     top: 20%;
     color: white;
@@ -205,10 +206,21 @@ nav ul li a:hover{
     position: absolute;
     top: 1900px;
     background-color:white;
-    background-image: url(http://hellodollface.com/wp-content/uploads/2013/10/meditatio1.jpg);
+    background-image: url(ZS/meditation-2214532.jpg);
     max-width:100%;
     max-height:100%;
+    font-size: 50px;
 }
+
+.benmed{
+    padding-left: 80px;
+}
+
+.benli{
+    padding-left: 10px;
+    
+}
+
 
 .posts_y{
     
