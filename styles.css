@@ -124,10 +124,10 @@ nav ul li a:hover{
 .intro_food button{
     text-decoration: none;
     position: relative;
-    left: 75%;
-    top: 460px;
+    left: 15%;
+    top: 420px;
     height: 60px;
-    width: 150px;
+    width: 250px;
     border: 1px solid black;
     background-color: azure;
     padding: 20px;
@@ -597,6 +597,7 @@ div.gallery:hover {
     float:right;
     width: 620px;
     font-family:'Roboto',cursive;
+      
 }
 .headersDiv span{
     font-size: 40px;
@@ -608,12 +609,30 @@ div.gallery:hover {
 #steps_1{
     display: none;
     padding: 5px 50px 0px 90px;
+    line-height: 55px;
 }
 #steps_2{
     display: none;
     padding: 5px 50px 0px 90px;
+    line-height: 55px;
 }
 #steps_3{
     display: none;
     padding: 5px 50px 0px 90px;
+    line-height: 55px;
+}
+.points{
+    padding: 80px 240px 0px 240px;
+    font-size: 30px;
+    background: url(pics/7.jpg);
+}
+.points div{
+    padding: 20px 20px 0px 20px;
+    font-family:'Aladin',cursive;
+    font-size: 30px;
+}
+.points div p{
+     font-family:'Roboto',cursive;
+    font-size: 30px;
+    line-height: 50px;
 }
