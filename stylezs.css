@@ -151,7 +151,7 @@ nav ul li a:hover{
     
 }
 
-.intro_fitness{
+.intro_home{
     width: 100%;
     height: 100px;
 }
@@ -327,7 +327,7 @@ nav ul li a:hover{
     text-align: center;
     text-shadow:  10px 10px 10px white;
     position: absolute;
-    left: 30%;
+    left: 38%;
     top:40px;
 }
 .food_gallery_z{
@@ -385,4 +385,26 @@ nav ul li a:hover{
     top:400px;
     font-size: 28px;
     padding-left: 40px;
+}
+
+
+#footer { 
+  
+  width: 100%;
+  height: 60px;
+  background: #000;
+  top: 3715px; 
+  z-index: 100;
+  position: absolute;
+
+}
+
+#footer p{ 
+  color: white;
+
+}
+
+#footer a{ 
+  color: white;
+
 }
