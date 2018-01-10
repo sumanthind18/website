@@ -450,11 +450,16 @@ div.gallery:hover {
     background-size: cover;
     background-attachment:local;
 }
+.photo1234 img:hover{
+     width: 300px;
+    height: 300px;
+    border: 2px solid black;
+}
 .food_gallery_z button{
     text-decoration: none;
     position: relative;
     left: 45%;
-    top: 60px;
+    top: 64px;
     height: 60px;
     width: 150px;
     border: 1px solid black;
@@ -468,7 +473,7 @@ div.gallery:hover {
     font-family: fantasy;
 }
 .photo1234 {
-    padding: 150px 10px 10px 80px;
+    padding: 150px 10px 0px 80px;
 }
 .photo123 img{
     width: 300px;
