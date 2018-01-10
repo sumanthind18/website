@@ -27,10 +27,9 @@
     }
 }
 nav{
-    margin-top: 2px;
     position:sticky;
     width:100%;
-   
+   top: 9px;
 }
 nav ul{
     background-color: black;
@@ -60,6 +59,14 @@ nav ul li a:hover{
     background-color:cadetblue;
     color: azure;
 }
+.ban1{
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(cj/healthy-life-expectancy-by-gender1.jpg);
+    border-radius: 30px;
+    min-height:90vh;
+    background-attachment: fixed;
+    background-size: 1450px 900px;
+    align-items: center; 
+}
 .buttons{
     display: flex;
 }
@@ -84,10 +91,27 @@ nav ul li a:hover{
     font-family:'Risque',cursive;
     font-size:40px;
 }
+.b3{
+    border-radius: 50px;
+    width: 300px;
+    height: 100px;
+    margin: 20px 20px; 
+    font-family:'Risque',cursive;
+    font-size:40px; 
+    background-color: #4CAF50;
+    color: white;
+}
 
 .name{
+    padding-top: 50px;
     font-size: 50px;
     text-align: center;
+    text-shadow:  0px 0px 6px white;
+}
+.or{
+     text-shadow:  0px 0px 6px white;
+    margin-top: 50px;
+    margin-left: 50px;
 }
 input[type=text] {
     width: 1000px;
@@ -149,16 +173,18 @@ select{
     border-radius: 50px;
     border-color: black;
     font-size: 30px;
+     text-shadow:  0px 0px 6px white;
 }
 .formSt{
    margin-left: 30px;
    font-size: 30px;
+     text-shadow:  0px 0px 6px white;
 }
 
 .formlogin{
       font-size: 30px;
     margin-left: 30px;  
-    
+     text-shadow:  0px 0px 6px white;
 }
 .submit{
     border-radius: 50px;
@@ -166,4 +192,5 @@ select{
     height: 100px; 
     font-family:'Risque',cursive;
     font-size:30px; 
+     text-shadow:  0px 0px 6px white;
 }

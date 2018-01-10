@@ -29,19 +29,23 @@
 nav{
     position:sticky;
     width:100%;
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 nav ul{
     background-color: black;
     list-style-type:none;
-    
+    border-radius: 10px;
+     text-shadow:  0px 0px 6px white;
 }
 nav ul li a {
+   
     text-decoration: none;
     display:block;
     text-align:center;
     font size:28px;
     padding:15px 25px;
-    color:darkgray;
+    color:white;
 }
 nav ul li a:hover{
     color: azure;
@@ -58,29 +62,39 @@ nav ul li a:hover{
 }
 
 .ban1{
-    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pics/banner.png);
+    background: linear-gradient(rgba(0,0,0,0.0),rgba(0,0,0,0.0)),url(pics/banner.png);
+ border-radius: 30px;
     min-height:90vh;
     background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 1450px 900px;
     display:flex;
-    align-items: center;
+    align-items: center; 
    
 }
 .name_1{
     position: absolute;
     top:42%;
-    left:24%;
+    left:25%;
     text-align: center;
     width:60%;
     color: white;
-    background-color: #424242  ;
-    text-shadow:  10px 10px 16px #000000;
+    background-color: #424259;
     font-family:'Risque', cursive;
     font-size: 100px;
+    text-shadow:  50px 20px 6px #000000;
+    border-radius: 30px;
+   margin-top: 3px;
+    transition: width 1s,height 1s,font-size 1s;
+    float: center;
+}
+.name_1:hover {
+    width: 900px;
+    height: 180px;
+    font-size: 130px;
 }
 .intro_1 h2{
-    font-size: 59px;
+   font-size: 59px;
     color: dimgrey;
     font-family:'Aladin', cursive; 
     text-align: center;
@@ -90,21 +104,21 @@ nav ul li a:hover{
     font-family: 'Bellefair', serif;
     background-color:white;
     font-size: 30px;
-    width:700px;
+    width:800px;
     text-align: left;
     position:absolute;
-    left:140px;
-    padding: 100px 40px 40px 40px;
+    left:10px;
+    padding: 40px 40px 40px 40px;
 }
 .intro_food{
-    width: 100%;
-    height: 120px;
+   width: 100%;
+    height: 100px;
 }
 .intro_img{
-    position:absolute;
-    top: 800px;
+   position:absolute;
+    top: 890px;
     right: 50px;
-    width: 400px;
+    width: 500px;
     border-radius: 20px;
 }
 .intro_food button{
@@ -127,24 +141,28 @@ nav ul li a:hover{
 }
 .div_quote1{
     position: relative;
-    top: 540px;
-    height: 1090px;
+    top: 550px;
+    height: 670px;
     background-color:black;
+    border-radius: 30px;
 }
+
 .div_quote11{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pics/5.jpg);
-    min-height:120vh;
-    background-size: 50% 695px;
+    min-height:68.5vh;
+   background-size:50% 850px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     display:flex;
+     border-radius: 30px;
 }
+
 .div_quote12{
     position:absolute;
     width: 500px;
     height: 400px;
-    left: 55%;
-    top: 10%;
+    left: 60%;
+    top: 5%;
     color: white;
     font-family:'Freckle Face', cursive;
     font-size: 30px;
@@ -152,7 +170,7 @@ nav ul li a:hover{
 }
 
 .posts_pics1 img{
-    width: 300px;
+    width: 600px;
     height: 300px;
     float: left;
     padding: 10px;
@@ -170,15 +188,17 @@ nav ul li a:hover{
 }
 
 .posts_z{
-    width:100%;
-    height: 380px;
+    background-image: url(pics/7.jpg);
+    border-radius: 30px;
+  background-size:100% 100%;
+    background-attachment: fixed;
     padding: 172px 72px 72px 72px;
-    position: absolute;
-    top: 1900px;
+    position: relative;
+    top: 465px;
     background-color:white;
     width: 100%;
-    height: 600px;
-    background-image: url(pics/7.jpg)
+    height: 830px;
+    border-radius:30px;
 }
 .posts_z h2{
     font-size: 79px;
@@ -206,50 +226,53 @@ nav ul li a:hover{
 }
 .headings_posts1{
     position: absolute;
-    top: 42%;
-    width: 160px;
-    left: 150px;
+    top: 35%;
+    width: 350px;
+    left: 200px;
+    height: 60px;
 }
 .headings_posts2{
     position: absolute;
-    top: 39%;
-    height: 190px;
-    width:180px;
-    left: 440px;
+    top: 32%;
+    height: 110px;
+    width:400px;
+    left: 740px;
 }
 .headings_posts3{
     position: absolute;
-    top: 42%;
-    height: 160px;
-    width: 140px;
-    left: 760px;
+    top: 65%;
+    height: 110px;
+    width: 350px;
+    left: 190px;
 }
 .headings_posts4{
     position: absolute;
-    top: 45%;
-    height: 100px;
-    width: 150px;
-    left: 1050px;
+    top: 67%;
+    height: 60px;
+    width: 250px;
+    left: 850px;
 }
 .div_quote2{
     position: relative;
-    top: 540px;
-    height: 820px;
+    top: 468px;
+    height: 800px;
     background-color:black;
+    border-radius: 30px;
 }
 .div_quote21 {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pics/11.jpg);
-    min-height:120vh;
-    background-size: 100% 695px;
+    min-height:100vh;
+    background-size: 100% 835px;
     background-attachment: fixed;
     background-repeat: no-repeat;
     display:flex;
+    border-radius: 30px;
 }
 .div_quote22{
     position:absolute;
-    width: 300px;
-    height: 400px;
-    left: 65%;
+    width: 1200px;
+    height: 100px;
+    left: 10%;
     top: 10%;
     color: white;
     font-family:'Satisfy', cursive;

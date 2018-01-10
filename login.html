@@ -21,6 +21,7 @@
         <li><a href="login.html">Login</a><li>
      </ul>
     </nav><br/>
+        <div class="ban1">
          <h1 class="name">Best Wishes For your good health!</h1><br/><br/>
            <h1 class="name"> Welcome to Yes 2 Healthy Life</h1><br/><br/>
         
@@ -28,6 +29,7 @@
             <div>
             <button class="b1" type="button" onclick="one()" >Sign UP</button>
             </div>
+            <h1 class="or">Or</h1>
             <div>
             <button class="b2" type="button" onclick="two()">Login.</button></div>
         <br/><br/></div> 
@@ -41,9 +43,9 @@
         <input type="radio" name="Gender" value="Female"/>Female
         <input type="radio" name="Gender" value="Other"/>Other<br/><br/>
         <h2> Email:</h2> <input type="email" name="Email" /><br/><br/>
-        <h2>Username:</h2 >  <input type="text" name="Username" required/><br/><br/>
+        <h2>Username:</h2 >  <input type="text" placeholder="Enter Username" name="Username" required/><br/><br/>
         
-        <h2>Password:</h2> <input id="pass" type="password" name="Password" required/>
+        <h2>Password:</h2> <input id="pass" placeholder="Enter Password" type="password" name="Password" required/>
         <input type="checkbox"  onclick="show()"/>Show password<br/><br/>
        
         <h2> Phone: </h2><input type="tel" name="Phone"/><br/><br/>
@@ -140,18 +142,55 @@
         <h2>Option:</h2> <input type="checkbox" name="Section" value="Food"/>Food
          <input type="checkbox" name="Section" value="Fitness"/>Fitness
          <input type="checkbox" name="Section" value="Medical Conditions"/>Medical Conditions<br/><br/>
-        <input class="submit" type="submit" name="Absorbed!" value="Submit"/><br/><br/>
+        <input type="checkbox" name="Section" value="Meditation"/>Meditation<br/><br/>
+       <a href="formlogin"><input class="b3" type="submit" name="Absorbed!" value="Submit" /></a> <br/><br/>
         </form>
          
             </div>
         
         <div class="formlogin">
             <form id="login" id="form1" action="https://formspree.io/chirag.jaggi12@gmail.com" method="POST">
-        <h2>Username:</h2 >  <input type="text" name="First name" required/><br/><br/>
-                <h2>Password:</h2> <input id="passl" type="password" name="Password" required/>
+        <h2>Username:</h2 >  <input type="text" placeholder="Enter Username" name="Username" required/><br/><br/>
+                <h2>Password:</h2> <input id="passl" placeholder="Enter Password" type="password" name="Password" required/>
         <input type="checkbox"  onclick="show1()"/>Show password<br/><br/>
-        <input  class="submit" type="submit" name="Absorbed!" value="Submit"/><br/><br/>
+    <button class="b3" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+    
         </form></div>
           <script src="login.js"></script>
+            </div>
     </body>
+    <link rel="stylesheet" type="text/css" href="emailPage.css">
+    <body>
+
+
+<div id="id01" class="modal">
+ 
+  <form class="modal-content animate" action="/action_page.php">
+   <div class="ban2">  <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+     <h1 class="name">Best Wishes For your good health!</h1><br/><br/>
+           <h1 class="name"> Welcome to Yes 2 Healthy Life</h1><br/><br/>
+    </div>
+
+    <div class="container">
+      <label><b>Query about</b></label>
+         <select name="Select Section">
+             <option value="Select Section">-Select Section-</option>
+             <option value="Food">Food</option>
+             <option value="Fitness">Fitness</option>
+        <option value="Medical Conditions">Medical Conditions</option>
+              <option value="Meditation">Meditation</option>
+        </select><br/>
+      <label><b>Queries</b></label>
+      <input type="text" placeholder="Enter List of queries" name="text" required>
+      <button class="b3" type="submit"><a href="index.html">Submit</a></button>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      </div></div>
+      </form>
+</div>
+       <script src="emailpage.js"></script>
+</body>
 </html>

@@ -27,16 +27,16 @@
     }
 }
 nav{
-    margin-top: 2px;
     position:sticky;
     width:100%;
-   
+    padding-top: 5px;
+    padding-bottom: 10px;
 }
 nav ul{
     background-color: black;
     list-style-type:none;
     border-radius: 10px;
-    
+     text-shadow:  0px 0px 6px white;
 }
 nav ul li a {
    
@@ -45,7 +45,7 @@ nav ul li a {
     text-align:center;
     font size:28px;
     padding:15px 25px;
-    color:darkgray;
+    color:white;
 }
 nav ul li a:hover{
     color: azure;
@@ -115,7 +115,7 @@ nav ul li a:hover{
 
 .intro_img{
     position:absolute;
-    top: 850px;
+    top: 950px;
     right: 50px;
     width: 500px;
     border-radius: 20px;
@@ -129,8 +129,8 @@ nav ul li a:hover{
   
 }
 .divy_z {
-    border-radius: 30px;
     background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.1)),url(cj/Fitness_Clip_Art_-_Copy.jpg);
+    border-radius: 30px;
     min-height:68.5vh;
     background-size:50% 850px;
     background-attachment: fixed;
@@ -223,6 +223,7 @@ nav ul li a:hover{
     background-attachment: fixed;
     background-repeat: no-repeat;
     display:flex;
+    
 }
 .divy_11{
 
