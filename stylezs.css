@@ -391,7 +391,7 @@ nav ul li a:hover{
 #footer { 
   
   width: 100%;
-  height: 60px;
+  height: 90px;
   background: #000;
   top: 3715px; 
   z-index: 100;
@@ -401,6 +401,9 @@ nav ul li a:hover{
 
 #footer p{ 
   color: white;
+    font-size: 30px;
+  font-family: cursive;
+  
 
 }
 
